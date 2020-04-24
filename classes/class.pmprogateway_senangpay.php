@@ -193,7 +193,7 @@ if (!function_exists('SenangPay_Pmp_Gateway_load')) {
                             <label for="senangpay_lmi"><?php _e('Live Merchant id', 'pmpro');?>:</label>
                         </th>
                         <td>
-                            <input type="text" id="senangpay_lmi" name="senangpay_lmi" size="60" value="<?php echo esc_attr($values['senangpay_lpk'])?>" />
+                            <input type="text" id="senangpay_lmi" name="senangpay_lmi" size="60" value="<?php echo esc_attr($values['senangpay_lmi'])?>" />
                         </td>
                     </tr>
 
